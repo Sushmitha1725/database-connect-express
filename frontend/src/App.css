@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color:rgb(179, 239, 219);
+}
+.heading h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: #282c34;
+}
+
+.container{
+  background-color: #ffffff;
+  width: 600px;
+  height: 500px;
+  margin-left: 460px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  padding-top: 25px;
+}
+.mt-4 .btn{
+  margin: 0;
+}
+.form-group{
+  padding-left: 76px;
+  padding-top: 30px;
+}
+.form-group label{
+  display:block;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+}
+.form-group input{
+  border-radius: 5px;
+  height: 30px;
+  width:430px;
+  font-size: 18px;
+  color: #282c34;
+}
+.container .btn{
+  width: 150px;
+  height: 30px;
+  margin-top: 45px;
+  margin-right: 64px;
+  font-size: 19px;
+  border-radius: 7px;
+  height: 35px;
+  margin-left: 75px;
+}
+.container .btn-primary{
+  background-color: rgb(155, 167, 203);
+  border: none;
+  outline: none;
+}
+.container .btn-warning{
+  background-color: rgb(228, 168, 215);
+  border: none;
+  outline: none;
+  color: black;
+}
+.btn-primary:hover{
+  background-color:rgb(54, 89, 195) ;
+  color: #ffffff;
+}
+.btn-warning:hover{
+  background-color: rgb(216, 72, 185);
+  border: none;
+  outline: none;
+  color: #ffffff;
+}
+table{
+  padding-top: 40px;
+}
+table,th,td{
+  padding-right: 55px;
+  text-align: center;
+  align-items: center;
+}
+th,td{
+  border-collapse: collapse;
+  border-radius: 6px;
+}
+th{
+  background-color: #ee9393;
+  border:5px solid #ee9393;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+  color: #ffffff;
+}
+td{
+  background-color: rgb(246, 109, 237);
+  border:rgb(246, 109, 237);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 19px;
+  color: #ffffff;
+}
+.btn-warning{
+  border:none;
+  outline: line;
+  border-radius: 4px;
+  background-color: rgb(153, 33, 239);
+  color: #ffffff;
+}
+.btn-danger{
+  border:none;
+  outline: line;
+  border-radius: 4px;
+  background-color: rgb(239, 222, 33);
+  color: #ffffff;
+}
